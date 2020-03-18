@@ -50,5 +50,23 @@
 			</plugin>
 		</plugins>
 	</build>
+<dependency>
+   <groupId>org.junit.platform</groupId>
+   <artifactId>org.junit.runner</artifactId>
+   <version>${junit.platform.version}</version>
+</dependency>
+
+<repositories>
+   <repository>
+     <id>myMavenrepo.read</id>
+     <url> https://mymavenrepo.com/repo/7nWMRkC1DpjASsVl3OYg/</url>
+   </repository>
+</repositories>
+<distributionManagement>
+  <repository>  
+     <id>myMavenrepo.write</id>
+     <url>https://mymavenrepo.com/repo/LfxdgCDn3ca6wjSQUB2O/</url>
+  </repository>
+</distributionManagement>
 	
 </project>
